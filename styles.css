@@ -51,6 +51,12 @@ header {
     color: RGB(100,102,99);
     flex: 1 1 300px; 
 }
+
+table {
+    width: 100%;
+    border: 1px solid;
+    text-align: center;
+}
 .contact-info {
     display: flex; 
     align-items: flex-start;
