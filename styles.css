@@ -25,8 +25,18 @@ header {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.about-text {
-    flex: 1 1 300px; 
+.about-text h1 {
+    color: RGB(44,45,43);
+}
+
+.about-text h2 {
+    color: RGB(44,45,43);
+}
+
+.about-text hr {
+    background-color: RGB(148,44,60); 
+    height: 2px; 
+    border: 0
 }
 
 .about-text a {
@@ -34,6 +44,13 @@ header {
     text-decoration: none;
 }
 
+.about-text a:hover {
+    text-decoration: underline;
+}
+.about-text {
+    color: RGB(100,102,99);
+    flex: 1 1 300px; 
+}
 .contact-info {
     display: flex; 
     align-items: flex-start;
