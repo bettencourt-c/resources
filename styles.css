@@ -51,7 +51,7 @@ header {
 .about-text {
     color: RGB(100,102,99);
     flex: 1 1 300px;
-    border: 95%;
+    border: 90%;
 }
 
 table {
