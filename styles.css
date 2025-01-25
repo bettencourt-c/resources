@@ -57,19 +57,17 @@ header {
 .about-text {
     color: RGB(100,102,99);
     flex: 1 1 300px;
-    max-width: 90%; 
+    max-width: 100%; 
 }
 
 table {
     width: 100%;
     border: 1px solid;
     text-align: center;
-}
-
-td, th {
     word-wrap: break-word;
     overflow-wrap: break-word; 
 }
+
 .contact-info {
     display: flex; 
     align-items: flex-start;
