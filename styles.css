@@ -35,6 +35,7 @@ header {
     top-border: 0px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-x: auto;
 }
 
 .about-text h1 {
@@ -72,7 +73,7 @@ table {
     word-wrap: break-word;
     overflow-wrap: break-word; 
     font-size: 15px;
-    overflow-x: scroll;
+    min-width: 600px;
 }
 
 .contact-info {
