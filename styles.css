@@ -35,7 +35,6 @@ header {
     top-border: 0px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    overflow-x: auto;
 }
 
 .about-text h1 {
@@ -64,6 +63,12 @@ header {
     color: RGB(100,102,99);
     flex: 1 1 300px;
     max-width: 100%; 
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    margin: 20px 0;
 }
 
 table {
