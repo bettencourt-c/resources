@@ -72,7 +72,7 @@ table {
     word-wrap: break-word;
     overflow-wrap: break-word; 
     font-size: 15px;
-    overflow: scroll;
+    overflow-x: scroll;
 }
 
 .contact-info {
