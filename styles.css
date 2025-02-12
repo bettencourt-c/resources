@@ -9,6 +9,7 @@ body {
     background-color: RGB(193,192,192);
     align-items: center;
     color: RGB(44,45,43);
+    overflow-x: hidden;
 } 
 
 header {
